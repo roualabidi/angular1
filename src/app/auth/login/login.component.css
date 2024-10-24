@@ -1,0 +1,39 @@
+
+input {
+    height: 60px;
+    padding-left: 20px;
+    width: 100%!important;
+}
+
+button{
+    height: 50px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #f7daff;
+    
+}
+.btn-sub{
+    height: 50px;
+    border: none;
+    font-size: 13px;
+    background-color: #961b36;
+    color: aliceblue;
+}
+.form-control {
+    border: 1px solid #ced4da; /* Bordure par défaut */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:hover {
+    border-color: #0d0f0f; /* Change la bordure au survol */
+}
+
+.form-control:focus {
+    border-color: #000000; /* Change la bordure au focus */
+    box-shadow: 0 0 5px rgba(12, 12, 12, 0.5); /* Effet de surbrillance */
+}
+
+.is-invalid {
+    border-color: #dc3545; /* Bordure rouge si invalide */
+}

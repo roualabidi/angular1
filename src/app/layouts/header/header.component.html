@@ -1,0 +1,10 @@
+<header class="navbar navbar-expand-lg fixed-top bg-white shadow-effect" >
+    <div class="container justify-content-center" >
+        <p routerLink ='/' class="logo" >AHMED-BLOG</p>
+    </div>
+
+    <div class="container justify-content-center" *ngIf=" isloggedIn|async">
+        <a href="#" class="mr-3" >{{userEmail}}</a>
+        <button class="btn btn-sm btn-info bg-s text-theme text-secondary" (click) ="onLogOut()" routerLink = '/login' >Logout</button>
+    </div>
+</header>

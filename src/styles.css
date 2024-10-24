@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import "~ngx-toastr/toastr";
+
+:root{
+    --primary-color : #9e1835;
+    --secondry-color : #fbecff;
+    --body-text-color : #000000;
+    --nav : #f3f3f3;
+}
+
+body{
+    font-family:'roboto' , sans-serif;
+    font-size: 12px;
+    color: var(--body-text-color); 
+}
+
+.bg-theme{
+    background-color: var(--primary-color);
+}
+button:hover{
+    background-color: #fbecff;
+    border: 1px solid black;
+}
+.btn-theme{
+    height: 40px;
+    border: none;
+    font-size: 13px;
+    background-color: var(--primary-color);
+}
+
+.shadow-effect{
+    border: none;
+    box-shadow: 0px 0px 33px -10px #fbecff;;
+}
+
+.bg-s{
+background-color: var(--secondry-color);
+}
+.text-t{
+    color: var(--primary-color);
+}
+
+input {
+    height: 60px;
+    padding-left: 20px;
+    width: 100%!important;
+}

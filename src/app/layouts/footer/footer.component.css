@@ -1,0 +1,16 @@
+footer{
+    height: 130px;
+    padding: 15px;
+    background-color: var(--nav);
+}
+.nav-link{
+    color: var(--primary-color);
+}
+.logo{
+    padding: 5px 20px ;
+    border-radius: 20px;
+    background-color: var(--secondry-color);
+    font-size: 1.2em;
+    color: var(--primary-color);
+    text-decoration: none;
+}
